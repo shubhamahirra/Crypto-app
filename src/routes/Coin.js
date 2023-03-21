@@ -95,7 +95,7 @@ const Coin = () => {
                     </div>
                 </div>
 
-                <div className='content'>
+                {/* <div className='content'>
                     <div className='about'>
                         <h3>About</h3>
                         <p dangerouslySetInnerHTML={{
@@ -105,7 +105,7 @@ const Coin = () => {
                         </p>
 
                     </div>
-                </div>
+                // </div> */}
 
             </div>
         </div>

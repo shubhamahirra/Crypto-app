@@ -1,13 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import CoinItem from './CoinItem'
 import Coin from '../routes/Coin'
 import { Link } from 'react-router-dom'
 
+
 import './Coins.css'
 
 const Coins = (props) => {
+    
+
     return (
         <div className='container'>
+            
             <div>
                 <div className='heading'>
                     <p>#</p>
